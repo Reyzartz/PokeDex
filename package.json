@@ -19,6 +19,8 @@
   },
   "devDependencies": {
     "@types/react": "17.0.29",
+    "@types/react-virtualized-auto-sizer": "^1.0.1",
+    "@types/react-window": "^1.8.5",
     "autoprefixer": "^10.3.7",
     "eslint": "8.0.0",
     "eslint-config-next": "11.1.2",

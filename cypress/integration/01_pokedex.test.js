@@ -66,7 +66,7 @@ context("PokeDex", () => {
     );
 
     //revisiting to check if local storage is present or not
-    cy.visit(Cypress.env("baseURL"));
+    cy.reload();
     cy.getByTestId("search-autocomplete")
       .children()
       .should("have.length.gt", 0);
